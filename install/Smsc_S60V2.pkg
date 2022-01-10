@@ -1,0 +1,33 @@
+;﻿
+; Installation file for Smsc application
+;
+;Languages
+&EN,EL
+;
+; UID is the app's UID
+; Please request a UID from Symbian
+;
+#{"SMSC Viewer","Εμφάν. Κέντρων SMS"},(0x0C253ABB),1,00,0
+;
+;Supports Series 60 v 2.0
+;This line indicates that this installation is for the Series 60 platform v2.0
+;This line must appear _exactly_ as shown below in the sis file
+;If this line is missing or incorrect, the sis file will not be able
+;to be installed on Series 60 v2.0 platforms
+(0x101F7960), 0, 0, 0, {"Series60ProductID","Series60ProductID"} 
+;
+; License file
+;
+{
+"license.txt"
+"licensegr.txt"
+}-"",FT,TA
+;
+; Files to install
+;
+"\Symbian\7.0s\Series60_v20\Epoc32\data\z\system\apps\Smsc\Smsc.r01"         -"!:\system\apps\Smsc\Smsc.r01"
+"\Symbian\7.0s\Series60_v20\Epoc32\data\z\system\apps\Smsc\Smsc.r54"         -"!:\system\apps\Smsc\Smsc.r54"
+"\Symbian\7.0s\Series60_v20\Epoc32\data\z\system\apps\Smsc\Smsc_caption.r01" -"!:\system\apps\Smsc\Smsc_caption.r01"
+"\Symbian\7.0s\Series60_v20\Epoc32\data\z\system\apps\Smsc\Smsc_caption.r54" -"!:\system\apps\Smsc\Smsc_caption.r54"
+"\Symbian\7.0s\Series60_v20\Epoc32\data\z\system\apps\Smsc\Smsc.aif"         -"!:\system\apps\Smsc\Smsc.aif"
+"\Symbian\7.0s\Series60_v20\Epoc32\release\armi\urel\Smsc.app"         -"!:\system\apps\Smsc\Smsc.app"

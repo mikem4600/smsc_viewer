@@ -1,0 +1,6 @@
+#ifdef LANGUAGE_01
+#include "Smsc.l01"
+#endif
+#ifdef LANGUAGE_54
+#include "Smsc.l54"
+#endif
